@@ -1,0 +1,83 @@
+div#contact-details {
+    background-color:white;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    padding-left: 14px;
+}
+
+#contact-details {
+    position: relative;
+}
+#contact-details img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height:90%;
+    width: auto;
+    display: block;
+    margin: 10px;
+    border-radius: 4px;
+}
+h1 {
+    color: red;
+}
+body {
+   background-color:grey;
+   font-family: 'Raleway', sans-serif;
+}
+
+/*.td {
+font-size:px;
+color: blueviolet;
+}
+*/
+#section1{
+    background-color: lightblue;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    padding-left: 14px;
+}
+
+#section2{
+    background-color: beige;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    padding-left: 14px;
+}
+
+#section3{
+    background-color: lightblue;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    padding-bottom: 16px;
+    padding-left: 14px;
+}
+
+#section4{
+    background-color: white;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    padding-left: 14px;
+}
+
+.short{
+    font-size: 12px;
+}
+
+.remove{
+    list-style: none;
+}
+progress .round{
+    border-radius: 6px;
+    border: 0;
+    height: 14px;
+}
+
+a:hover{
+    color: blueviolet
+}
