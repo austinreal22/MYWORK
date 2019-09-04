@@ -5,12 +5,138 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>AUSTIN ILOZUMBA'S CV</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <style>
+     div#contact-details {
+    background-color:white;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    padding-left: 14px;
+}
+
+#contact-details {
+    position: relative;
+}
+#contact-details img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height:90%;
+    width: auto;
+    display: block;
+    margin: 10px;
+    border-radius: 4px;
+}
+h1 {
+    color: red;
+}
+body {
+   background-color:grey;
+   font-family: 'Raleway', sans-serif;
+}
+
+/*.td {
+font-size:px;
+color: blueviolet;
+}
+*/
+#section1{
+    background-color: lightblue;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    padding-left: 14px;
+}
+
+#section2{
+    background-color: beige;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    padding-left: 14px;
+}
+
+#section3{
+    background-color: lightblue;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    padding-bottom: 16px;
+    padding-left: 14px;
+}
+
+#section4{
+    background-color: white;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    padding-left: 14px;
+}
+
+.short{
+    font-size: 12px;
+}
+
+.remove{
+    list-style: none;
+}
+progress .round{
+    border-radius: 6px;
+    border: 0;
+    height: 14px;
+}
+
+a:hover{
+    color: blueviolet
+}
+
+/* form CSS */
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: lightgreen;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: blue;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+}
+    </style>
 </head>
 <body>
- 
-  <div>
+  <div id="contact-details">
 <table>
   <tr>
    <td><h1>Hello <br>I'm Austin Ilozumba<br></h1></td>
@@ -27,31 +153,41 @@
    <tr>
     <td><a href="https://www.linkedin.com/in/austinilozumba/">LINKEDIN</a></td>   
    </tr>
+   <img src="https://res.cloudinary.com/austinreal22/image/upload/v1566539620/IMG_o2esum.jpg" alt="cloudinary photo">
 </table>
   </div>
-  <img src="https://res.cloudinary.com/austinreal22/image/upload/v1566539620/IMG_o2esum.jpg" alt="cloudinary photo" style="width:300px;height:300px;">
+
 
   
     
-  <div>
+  <div id="section1">
   <h1>Summary</h1>
     <p>Engaging and patient professional with 3+ years of work experience, responding 
     and dealing with different business activities, and customer inquiries. I have a 
     passion for the digital space: digital marketing and software development are my 
     focus. I'm determined to exceed company targets and achieve business goals while 
     maintaining the highest level of service and loyalty.</p>
-    </div>
+    
 
-    <div>
     <h1>Skills</h1>
-    <p>Marketing,  Fast learner,  Communication (oral and written),  Problem solving 
-    abilities, Customer service,  Teamwork,  Html and Css3.</p>
+  
+    <ul class="remove">
+      <li><strong>Marketing</strong> <br><progress class="round" max="100" value="80"></progress></li><br>
+      <li><strong>Fast learner</strong><br><progress max="100" value="80"></progress></span></li><br>
+      <li><strong>Communication (oral and written)</strong><br><progress max="100" value="80"></progress></span></li><br>
+      <li><strong>Problem solving abilities</strong> <br><progress max="100" value="80"></progress></span></li><br>
+      <li><strong>Customer service</strong><br><progress max="100" value="80"></progress></span></li><br>
+      <li><strong>Html and CSS3</strong><br><progress max="100" value="50"></progress></span></li><br>
+      <li><strong>Teamwork</strong><br><progress max="100" value="80"></progress></span></li><br>
+    </ul>
+
+    
     </div>
    
-    <div>
+    <div id="section2">
     <h1>Experience</h1>
-  <table><tr><td>JANUARY 2017- MARCH 2019</td></tr>
-  <tr><td><strong>Hygrade Ventures, Lagos</strong> - <i>Realtor</i></td></tr>
+  <table><tr><td class="short">JANUARY 2017- MARCH 2019</td></tr>
+  <tr><td class="td"><strong>Hygrade Ventures, Lagos</strong> - <i>Realtor</i></td></tr>
 </table>
  <ul>
   <li>
@@ -67,9 +203,9 @@
  </ul>
  <table>
      <tr>
-         <td>JANUARY 2014 - SEPTEMBER 2016</td>
+         <td class="short">JANUARY 2014 - SEPTEMBER 2016</td>
     </tr>
-      <tr><td><strong>Testifiers Store, Lagos</strong> - <i>Sales Representative</i></td></tr>
+      <tr><td class="td"><strong>Testifiers Store, Lagos</strong> - <i>Sales Representative</i></td></tr>
  </table>
    <ul>
     <li>Answered questions about value, features and cost of products/items.</li>
@@ -79,50 +215,65 @@
      <li>Established and maintained good working relationships among employees and customers.</li>
    </ul>
   <table>
-      <tr><td>FEBRUARY 2010 - JANUARY 2012</td></tr>
-      <tr><td><strong>Keysson Realtors, Lagos</strong> - <i>Clerk</i></td></tr>
+      <tr><td class="short">FEBRUARY 2010 - JANUARY 2012</td></tr>
+      <tr><td class="td"><strong>Keysson Realtors, Lagos</strong> - <i>Clerk</i></td></tr>
  </table>
     <ul>
-     <li>Organized office activities.</li>
-     <li>Received and delivered messages.</li>
-     <li>Answered inquiries about the company.</li>
-     <li>Answered phones and greeted clients warmly.</li>
+        <li>Organized office activities.</li>
+        <li>Received and delivered messages.</li>
+        <li>Answered inquiries about the company.</li>
+        <li>Answered phones and greeted clients warmly.</li>
     </ul>
     </div>
     
-    <div>
+    <div id="section3">
     <h1>Education</h1>
-   <table><tr><td>SEPTEMBER 2003 - JULY 2009</td></tr>
+   <table><tr><td class="short">SEPTEMBER 2003 - JULY 2009</td></tr>
     <tr><td><strong>Altitude College, Lagos</strong> - <i>Diploma</i></td></tr>
 </table>
    <p>I obtained the Senior Secondary School Certificate (S.S.C.E) awarded by the West 
     African Examination Council (W.A.E.C).</p>
-    </div>
   
-    <div>
     <h1>Certifications</h1>
-  <table><tr><td>AUGUST 2019</td></tr>
+  <table><tr><td class="short">AUGUST 2019</td></tr>
     <tr><td><strong>Google Digital Garage, E-learning</strong> - <i>The Fundamentals of Digital Marketing</i></td>
     </tr><tr><td></td></tr><tr><td></td></tr>
-    <tr><td>AUGUST 2019</td></tr><tr><td><strong>eMarketing Institute, E-learning</strong> - <i>Online Marketing Fundamentals</i></td>
+    <tr><td class="short">AUGUST 2019</td></tr><tr><td><strong>eMarketing Institute, E-learning</strong> - <i>Online Marketing Fundamentals</i></td>
     </tr><tr><td></td></tr><tr><td></td></tr>
-    <tr><td>JULY 2019</td></tr><tr><td><strong>HP LIFE, E-learning</strong> - <i>Success Mindset</i></td></tr>
+    <tr><td class="short">JULY 2019</td></tr><tr><td><strong>HP LIFE, E-learning</strong> - <i>Success Mindset</i></td></tr>
     <tr><td></td></tr><tr><td></td></tr>
-    <tr><td>JULY 2018</td></tr><tr><td><strong>CodeLagos, Lagos</strong> - <i>Front-end Website Development</i></td></tr>
+    <tr><td class="short">JULY 2018</td></tr><tr><td><strong>CodeLagos, Lagos</strong> - <i>Front-end Website Development</i></td></tr>
   </table>
    </div>
    
-   <div>  
+   <div id="section4">  
    <h1>Interests</h1>
    <p>Avid Reading (non-fiction books), Games (puzzles, strategy), Social Activities 
     (attending events, networking), Keeping up with the latest developments in technology.</p>
-    </div>
+    
 
-    <div>
    <h1>References</h1>
     <p>Available on Request</p>
     </div>
 <!-- I needed to insert blank lines within the table under certifications to give it spacing so I created empty <td> -->
+  <div>
+    <h2>Contact Me</h2>
+    <form method="get" action="">
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your Name" minlength="4" required>
 
+        <label for="email">Email</label>
+        <input type="email" id="lname" name="lastname" placeholder="Your email" value="" required>
+
+        <label for="subject">Subject</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your Subject">
+
+        <label for="my-textarea">Message</label><br><br>
+        <textarea id="my-textarea" name="" rows="5" cols="100" placeholder="Enter your message here..." minlength="20"></textarea>
+
+        <input type="submit" value="Submit">
+
+    </form>
+</div>
 </body>
 </html>
